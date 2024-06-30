@@ -1,0 +1,61 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.box {
+  position: absolute;
+  margin: auto;
+  inset: 0px;
+  padding: 1rem;
+  height: 500px;
+  min-width: 100px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 0px 121px -27px black;
+  padding-bottom: 3rem;
+  transition: transform 500ms;
+}
+.image1 {
+  width: 100%;
+  border-radius: 10px;
+}
+h3 {
+  color: white;
+}
+.first{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.second{
+    color: #00FFF8;
+}
+span{
+    color: #8BACD9;
+}
+svg {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.box2{
+    height: 50px;
+    min-width: 20px;
+    width: 290px;
+    color: aliceblue;
+    
+}
+.image2{
+    width: 10%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle; 
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+
